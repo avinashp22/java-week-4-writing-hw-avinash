@@ -36,12 +36,12 @@ public class Programme_7_FirstAndLastDigitSum {
     }
 
     public static void main(String[] args) {
-        //Scanner declaration for reading input form console
+        //Scanner declaration
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter any number : ");
+        System.out.println("Enter any number ");
         int a = scanner.nextInt();
-        System.out.println("The sum of first & last digit is: " + sumFirstAndLastDigit(a));
-        // closing the scanner object
+        System.out.println("The sum of first & last digit is " + sumFirstAndLastDigit(a));
+        // closing the scanner
         scanner.close();
     }
 }

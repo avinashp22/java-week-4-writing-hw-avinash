@@ -21,11 +21,11 @@ public class Programme_8_SymbolTriangle {
     }
 
     public static void main(String[] args) {
-        //Scanner declaration for reading input form console
+        //Scanner declaration
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Input number of rows: ");
+        System.out.println("Input number of rows ");
         symbolTriangle(scanner.nextInt());
-        // closing the scanner object
+        // closing the scanner
         scanner.close();
     }
 }

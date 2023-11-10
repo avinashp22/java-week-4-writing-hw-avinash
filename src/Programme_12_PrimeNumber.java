@@ -16,18 +16,18 @@ public class Programme_12_PrimeNumber {
             }
         }
         if (!flag)
-            System.out.println(num + " is a prime number.");
+            System.out.println(num + " is a prime number");
         else
-            System.out.println(num + " is not a prime number.");
+            System.out.println(num + " is not a prime number");
     }
 
     public static void main(String[] args) {
-        //Scanner declaration for reading input form console
+        //Scanner declaration
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter any number: ");
+        System.out.println("Enter any number ");
         int a = scanner.nextInt();
         isPrimeNumber(a);
-        // closing the scanner object
+        // closing the scanner
         scanner.close();
     }
 

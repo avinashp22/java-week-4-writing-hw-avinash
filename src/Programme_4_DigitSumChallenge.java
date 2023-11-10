@@ -37,12 +37,12 @@ public class Programme_4_DigitSumChallenge {
     }
 
     public static void main(String[] args) {
-        //Scanner declaration for reading input form console
+        //Scanner declaration
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter number = : ");
+        System.out.println("Enter number ");
         int result = sumDigits(scanner.nextInt());
-        System.out.println("Sum of number digits is: " + result);
-        // closing the scanner object
+        System.out.println("Sum of number digits is" + result);
+        // closing the scanner
         scanner.close();
     }
 

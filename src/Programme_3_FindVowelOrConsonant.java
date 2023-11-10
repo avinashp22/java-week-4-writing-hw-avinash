@@ -19,12 +19,12 @@ public class Programme_3_FindVowelOrConsonant {
             System.out.println("Error. Not a single character");
             //if user enters a symbol
         } else if (!(isItALetter(letter))) {
-            System.out.println("Error. Not a letter. Enter uppercase or lowercase letter");
+            System.out.println("Error. Enter uppercase or lowercase letter only");
         } else if (letter.equals("a") || letter.equals("e") || letter.equals("i")
                 || letter.equals("o") || letter.equals("u")) {
-            System.out.println("Input letter is a vowel");
+            System.out.println("Letter is a vowel");
         } else {
-            System.out.println("Input letter is a consonant");
+            System.out.println("Letter is a consonant");
         }
     }
 
@@ -34,13 +34,13 @@ public class Programme_3_FindVowelOrConsonant {
     }
 
     public static void main(String[] args) {
-        //Scanner declaration for reading input form console
+        //Scanner declaration
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter any character: ");
+        System.out.println("Enter any character ");
         String str = scanner.next().toLowerCase();
         //calling static method directly
         checkVowelOrConsonant(str);
-        // closing the scanner object
+        // closing scanner
         scanner.close();
     }
 

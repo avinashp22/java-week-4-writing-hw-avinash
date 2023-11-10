@@ -30,13 +30,13 @@ public class Programme_11_EvenDigitSum {
     }
 
     public static void main(String[] args) {
-        //Scanner declaration for reading input form console
+        //Scanner declaration
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter any number: ");
+        System.out.println("Enter any number ");
         int a = scanner.nextInt();
         int result = getEvenDigitSum(a);
-        System.out.println("The sum of even digits is: " + result);
-        // closing the scanner object
+        System.out.println("The sum of even digits is " + result);
+        // closing the scanner
         scanner.close();
     }
 

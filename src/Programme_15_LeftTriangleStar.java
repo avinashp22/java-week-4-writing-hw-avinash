@@ -23,12 +23,12 @@ public class Programme_15_LeftTriangleStar {
     }
 
     public static void main(String[] args) {
-        //Scanner declaration for reading input form console
+        //Scanner declaration
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter number of rows : ");
+        System.out.println("Enter number of rows ");
         int a = scanner.nextInt();
         leftTriangle(a);
-        // closing the scanner object
+        // closing the scanner
         scanner.close();
     }
 

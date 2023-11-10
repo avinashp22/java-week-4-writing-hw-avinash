@@ -52,14 +52,14 @@ public class Programme_14_DiamondPattern {
     }
 
     public static void main(String[] args) {
-        //Scanner declaration for reading input form console
+        //Scanner declaration
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the Number of row : ");
+        System.out.println("Enter the Number of rows ");
         int a = scanner.nextInt();
-        System.out.print("Enter the symbol : ");
+        System.out.print("Enter the symbol ");
         char c = scanner.next().charAt(0);
         printDiamond(a, c);
-        // closing the scanner object
+        // closing the scanner
         scanner.close();
     }
 

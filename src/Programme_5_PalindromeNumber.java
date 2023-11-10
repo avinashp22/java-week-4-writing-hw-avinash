@@ -50,9 +50,9 @@ public class Programme_5_PalindromeNumber {
     }
 
     public static void main(String[] args) {
-        //Scanner declaration for reading input form console
+        //Scanner declaration
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter any number: ");
+        System.out.println("Enter any number");
         int a = scanner.nextInt();
         boolean check = isPalindrome(a);
         //checks number is Palindrome or not
@@ -60,7 +60,7 @@ public class Programme_5_PalindromeNumber {
             System.out.println("Number is Palindrome");
         else
             System.out.println("Number is not Palindrome");
-        // closing the scanner object
+        // closing the scanner
         scanner.close();
     }
 

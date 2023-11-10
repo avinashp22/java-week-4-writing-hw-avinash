@@ -15,7 +15,7 @@ import java.util.Scanner;
  */
 public class Programme_1_ReadNumbersAndSum {
     public static void readTenNumbersAndSum() {
-        //Scanner declaration for reading input form console
+        //Scanner declaration
         Scanner scanner = new Scanner(System.in);
         int counter = 0;
         int sum = 0;
@@ -36,7 +36,7 @@ public class Programme_1_ReadNumbersAndSum {
             scanner.nextLine(); // handle end of line (enter key)
         }
         System.out.println("sum = " + sum);
-        // closing the scanner object
+        // closing the scanner
         scanner.close();
     }
 

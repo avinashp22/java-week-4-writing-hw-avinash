@@ -28,12 +28,12 @@ public class Programme_10_ArmstrongNumber {
     }
 
     public static void main(String[] args) {
-        //Scanner declaration for reading input form console
+        //Scanner declaration
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter any number: ");
+        System.out.println("Enter any number ");
         int a = scanner.nextInt();
         isArmstrongNumber(a);
-        // closing the scanner object
+        // closing the scanner
         scanner.close();
     }
 }
